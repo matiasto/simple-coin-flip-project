@@ -10,12 +10,12 @@ A simple Python project that simulates coin flips, allows users to simulate mult
 
 1. Pull the pre-built Docker image from Docker Hub:
 ```bash
-docker pull yourusername/coin-flip-simulator
+docker pull matiasto/coin-flip-simulator
 ```
 
 2. Run the Docker container:
 ```bash
-docker run --name coin -it --rm yourusername/coin-flip-simulator
+docker run --name coin -it --rm matiasto/coin-flip-simulator
 ```
 
 3. Interact with the application using the command-line interface. Choose between the available options by entering the corresponding number:
