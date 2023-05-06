@@ -5,7 +5,7 @@ FROM python:3.9-slim
 WORKDIR /app
 
 # Copy the necessary Python files to the container
-COPY src .
+COPY . .
 
 # Run the main script when the container starts
-CMD python3 main.py
+CMD python3 src/main.py
